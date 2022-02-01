@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "me.julen.concesionario3.Main",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "me.julen.concesionario.Main",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "me.julen.ej1.Main",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "me.julen.ej2.Main",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ej1",
+            "request": "launch",
+            "mainClass": "me.julen.ej3.Ej1",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ej2",
+            "request": "launch",
+            "mainClass": "me.julen.ej3.Ej2",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ej3",
+            "request": "launch",
+            "mainClass": "me.julen.ej3.Ej3",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ej4",
+            "request": "launch",
+            "mainClass": "me.julen.ej3.Ej4",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ej5",
+            "request": "launch",
+            "mainClass": "me.julen.ej3.Ej5",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "me.julen.ejFrutas.Main",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(4)",
+            "request": "launch",
+            "mainClass": "me.julen.ejFrutas2.Main",
+            "projectName": "acceso_a_datos_t3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(5)",
+            "request": "launch",
+            "mainClass": "me.julen.ej1_Files.Main",
+            "projectName": "t2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(6)",
+            "request": "launch",
+            "mainClass": "me.julen.ej2_Files.Main",
+            "projectName": "t2"
+        }
+    ]
+}

@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		try {
 			// Creo el scanner con el file instanciado para que lo lea directamente
-			Scanner teclado = new Scanner(new File("src/ej2/ejercicio2.txt"));
+			Scanner teclado = new Scanner(new File("t3\\src\\main\\java\\me\\julen\\ej2\\ejercicio2.txt"));
 			
 			while(teclado.hasNextLine()) {
 				// Separo por espacios el archivo guardandolo en un array de strings
