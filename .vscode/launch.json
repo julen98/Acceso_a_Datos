@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "me.julen.Main",
+            "projectName": "t5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "me.julen.concesionario3.Main",
             "projectName": "acceso_a_datos_t3"
         },
