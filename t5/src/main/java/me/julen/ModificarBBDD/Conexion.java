@@ -1,4 +1,4 @@
-package me.julen.Plantilla;
+package me.julen.ModificarBBDD;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package me.julen.Plantilla;
+package me.julen.InsertarDatos;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
