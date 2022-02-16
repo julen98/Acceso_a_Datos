@@ -1,4 +1,4 @@
-package me.julen.ConsultarDatos;
+package me.julen.ConsultarDatos1;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -49,7 +49,7 @@ public class Consulta {
             rs = s.executeQuery(sql);
 
             while(rs.next()) {
-                System.out.println(campos.get(0) + ": " + rs.getInt(1) + " " + campos.get(1) + ": " + rs.getString(2));
+                System.out.println(campos.get(0) + ": " + rs.getString(1));
             }
             rs.close();
         } catch (SQLException e) {

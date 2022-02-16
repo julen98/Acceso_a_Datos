@@ -12,15 +12,20 @@ public class Main {
         
         // Añadir campos al array
         campos.add("Nombre");
-        campos.add("Nombre");
-        campos.add("Nombre");
-        campos.add("Nombre");
 
         // Conexion a la BBDD
         conexion.conectarseBBDD();
 
         // Realizar consulta / insert
-        sql = "";
+        sql = "SELECT nombre " + 
+        "FROM conductores " + 
+        "WHERE id_conductor IN (" + 
+            "SELECT id_conductor " + 
+            "FROM bonos_activos " + 
+            "WHERE id_linea IN (" +
+                "SELECT id_linea " +
+                "FROM lineas));";
+
         consulta.consulta(sql, campos);
         
 
